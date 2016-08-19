@@ -99,6 +99,16 @@
 		0ADF88CA1D6709FD00E73526 /* zhmx_jian.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF887F1D6709FD00E73526 /* zhmx_jian.png */; };
 		0ADF88CB1D6709FD00E73526 /* zhmx_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF88801D6709FD00E73526 /* zhmx_right.png */; };
 		0ADF88CE1D670AD500E73526 /* JCDKTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88CD1D670AD500E73526 /* JCDKTabBarVC.m */; };
+		0ADF88E91D67166E00E73526 /* FHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88E71D67166E00E73526 /* FHomeVC.m */; };
+		0ADF88EA1D67166E00E73526 /* FHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF88E81D67166E00E73526 /* FHomeVC.xib */; };
+		0ADF88EE1D67168200E73526 /* SHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88EC1D67168200E73526 /* SHomeVC.m */; };
+		0ADF88EF1D67168200E73526 /* SHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF88ED1D67168200E73526 /* SHomeVC.xib */; };
+		0ADF88F31D67169000E73526 /* THomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88F11D67169000E73526 /* THomeVC.m */; };
+		0ADF88F41D67169000E73526 /* THomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF88F21D67169000E73526 /* THomeVC.xib */; };
+		0ADF88F81D6716A200E73526 /* FiveHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88F61D6716A200E73526 /* FiveHomeVC.m */; };
+		0ADF88F91D6716A200E73526 /* FiveHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF88F71D6716A200E73526 /* FiveHomeVC.xib */; };
+		0ADF88FD1D6716B200E73526 /* FourthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88FB1D6716B200E73526 /* FourthVC.m */; };
+		0ADF88FE1D6716B200E73526 /* FourthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF88FC1D6716B200E73526 /* FourthVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -211,6 +221,21 @@
 		0ADF88801D6709FD00E73526 /* zhmx_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhmx_right.png; sourceTree = "<group>"; };
 		0ADF88CC1D670AD500E73526 /* JCDKTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDKTabBarVC.h; sourceTree = "<group>"; };
 		0ADF88CD1D670AD500E73526 /* JCDKTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDKTabBarVC.m; sourceTree = "<group>"; };
+		0ADF88E61D67166E00E73526 /* FHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHomeVC.h; sourceTree = "<group>"; };
+		0ADF88E71D67166E00E73526 /* FHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHomeVC.m; sourceTree = "<group>"; };
+		0ADF88E81D67166E00E73526 /* FHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHomeVC.xib; sourceTree = "<group>"; };
+		0ADF88EB1D67168200E73526 /* SHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHomeVC.h; sourceTree = "<group>"; };
+		0ADF88EC1D67168200E73526 /* SHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHomeVC.m; sourceTree = "<group>"; };
+		0ADF88ED1D67168200E73526 /* SHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHomeVC.xib; sourceTree = "<group>"; };
+		0ADF88F01D67169000E73526 /* THomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THomeVC.h; sourceTree = "<group>"; };
+		0ADF88F11D67169000E73526 /* THomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THomeVC.m; sourceTree = "<group>"; };
+		0ADF88F21D67169000E73526 /* THomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THomeVC.xib; sourceTree = "<group>"; };
+		0ADF88F51D6716A200E73526 /* FiveHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveHomeVC.h; sourceTree = "<group>"; };
+		0ADF88F61D6716A200E73526 /* FiveHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveHomeVC.m; sourceTree = "<group>"; };
+		0ADF88F71D6716A200E73526 /* FiveHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiveHomeVC.xib; sourceTree = "<group>"; };
+		0ADF88FA1D6716B200E73526 /* FourthVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthVC.h; sourceTree = "<group>"; };
+		0ADF88FB1D6716B200E73526 /* FourthVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthVC.m; sourceTree = "<group>"; };
+		0ADF88FC1D6716B200E73526 /* FourthVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,12 +290,12 @@
 			isa = PBXGroup;
 			children = (
 				0ADF87DD1D66AC1A00E73526 /* BaseVC */,
-				0ADF87DE1D66AC1A00E73526 /* First */,
-				0ADF87DF1D66AC1A00E73526 /* Fivth */,
-				0ADF87E01D66AC1A00E73526 /* Fourth */,
-				0ADF87E11D66AC1A00E73526 /* Second */,
 				0ADF87E21D66AC1A00E73526 /* Start */,
+				0ADF87DE1D66AC1A00E73526 /* First */,
+				0ADF87E11D66AC1A00E73526 /* Second */,
 				0ADF87E61D66AC1A00E73526 /* Third */,
+				0ADF87E01D66AC1A00E73526 /* Fourth */,
+				0ADF87DF1D66AC1A00E73526 /* Fivth */,
 			);
 			path = MainUI;
 			sourceTree = "<group>";
@@ -287,6 +312,9 @@
 		0ADF87DE1D66AC1A00E73526 /* First */ = {
 			isa = PBXGroup;
 			children = (
+				0ADF88E61D67166E00E73526 /* FHomeVC.h */,
+				0ADF88E71D67166E00E73526 /* FHomeVC.m */,
+				0ADF88E81D67166E00E73526 /* FHomeVC.xib */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -294,6 +322,9 @@
 		0ADF87DF1D66AC1A00E73526 /* Fivth */ = {
 			isa = PBXGroup;
 			children = (
+				0ADF88F51D6716A200E73526 /* FiveHomeVC.h */,
+				0ADF88F61D6716A200E73526 /* FiveHomeVC.m */,
+				0ADF88F71D6716A200E73526 /* FiveHomeVC.xib */,
 			);
 			path = Fivth;
 			sourceTree = "<group>";
@@ -301,6 +332,9 @@
 		0ADF87E01D66AC1A00E73526 /* Fourth */ = {
 			isa = PBXGroup;
 			children = (
+				0ADF88FA1D6716B200E73526 /* FourthVC.h */,
+				0ADF88FB1D6716B200E73526 /* FourthVC.m */,
+				0ADF88FC1D6716B200E73526 /* FourthVC.xib */,
 			);
 			path = Fourth;
 			sourceTree = "<group>";
@@ -308,6 +342,9 @@
 		0ADF87E11D66AC1A00E73526 /* Second */ = {
 			isa = PBXGroup;
 			children = (
+				0ADF88EB1D67168200E73526 /* SHomeVC.h */,
+				0ADF88EC1D67168200E73526 /* SHomeVC.m */,
+				0ADF88ED1D67168200E73526 /* SHomeVC.xib */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -346,6 +383,9 @@
 		0ADF87E61D66AC1A00E73526 /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				0ADF88F01D67169000E73526 /* THomeVC.h */,
+				0ADF88F11D67169000E73526 /* THomeVC.m */,
+				0ADF88F21D67169000E73526 /* THomeVC.xib */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -616,6 +656,7 @@
 				0ADF88B81D6709FD00E73526 /* sszx1.png in Resources */,
 				0ADF88B91D6709FD00E73526 /* sszx2.png in Resources */,
 				0ADF88A71D6709FD00E73526 /* my2.png in Resources */,
+				0ADF88F41D67169000E73526 /* THomeVC.xib in Resources */,
 				0ADF889B1D6709FD00E73526 /* menu_index_an.png in Resources */,
 				0ADF88961D6709FD00E73526 /* login_possword.png in Resources */,
 				0ADF889A1D6709FD00E73526 /* menu_befen_liang.png in Resources */,
@@ -632,6 +673,7 @@
 				0ADF888C1D6709FD00E73526 /* index_help.png in Resources */,
 				0ADF88B11D6709FD00E73526 /* qsjj2.png in Resources */,
 				0ADF888A1D6709FD00E73526 /* index_basketball.png in Resources */,
+				0ADF88EA1D67166E00E73526 /* FHomeVC.xib in Resources */,
 				0ADF88931D6709FD00E73526 /* jiantou_left.png in Resources */,
 				0ADF888E1D6709FD00E73526 /* index_more.png in Resources */,
 				0ADF88B51D6709FD00E73526 /* set_right.png in Resources */,
@@ -650,7 +692,9 @@
 				0ADF88831D6709FD00E73526 /* bfzx_small.png in Resources */,
 				0ADF88C21D6709FD00E73526 /* ture.png in Resources */,
 				0ADF88A61D6709FD00E73526 /* my14.png in Resources */,
+				0ADF88F91D6716A200E73526 /* FiveHomeVC.xib in Resources */,
 				0ADF88C01D6709FD00E73526 /* sszx_smallpic.png in Resources */,
+				0ADF88FE1D6716B200E73526 /* FourthVC.xib in Resources */,
 				0ADF88B21D6709FD00E73526 /* rerturn.png in Resources */,
 				0ADF888D1D6709FD00E73526 /* index_liuyan.png in Resources */,
 				0ADF88841D6709FD00E73526 /* bstj_add.png in Resources */,
@@ -675,6 +719,7 @@
 				0ADF87F61D66AC8500E73526 /* Assets.xcassets in Resources */,
 				0ADF88851D6709FD00E73526 /* bstj_top_right1.png in Resources */,
 				0ADF88871D6709FD00E73526 /* date.png in Resources */,
+				0ADF88EF1D67168200E73526 /* SHomeVC.xib in Resources */,
 				0ADF88BA1D6709FD00E73526 /* sszx3.png in Resources */,
 				0ADF87F71D66AC8500E73526 /* LaunchScreen.storyboard in Resources */,
 				0ADF88A91D6709FD00E73526 /* my4.png in Resources */,
@@ -701,14 +746,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADF88E91D67166E00E73526 /* FHomeVC.m in Sources */,
 				0ADF87F51D66AC8500E73526 /* AppDelegate.m in Sources */,
 				0ADF88031D66B3E100E73526 /* UIColor+YYAdd.m in Sources */,
 				0ADF87F91D66AC8500E73526 /* main.m in Sources */,
 				0ADF88041D66B3E100E73526 /* UIView+YYAdd.m in Sources */,
+				0ADF88F81D6716A200E73526 /* FiveHomeVC.m in Sources */,
+				0ADF88FD1D6716B200E73526 /* FourthVC.m in Sources */,
 				0ADF88CE1D670AD500E73526 /* JCDKTabBarVC.m in Sources */,
 				0ADF88331D66F22500E73526 /* ZKTextField.m in Sources */,
 				0ADF880B1D66B6B500E73526 /* NSData+YSAdd.m in Sources */,
 				0ADF88181D66C58E00E73526 /* NavigationView.m in Sources */,
+				0ADF88EE1D67168200E73526 /* SHomeVC.m in Sources */,
+				0ADF88F31D67169000E73526 /* THomeVC.m in Sources */,
 				0ADF88311D66F22500E73526 /* ToolBarView.m in Sources */,
 				0ADF88341D66F22600E73526 /* ZKTextView.m in Sources */,
 				0ADF88081D66B60900E73526 /* NSString+YSAdd.m in Sources */,
