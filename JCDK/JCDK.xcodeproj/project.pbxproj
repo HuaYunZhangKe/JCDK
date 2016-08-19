@@ -98,6 +98,7 @@
 		0ADF88C91D6709FD00E73526 /* zhmx_jia.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF887E1D6709FD00E73526 /* zhmx_jia.png */; };
 		0ADF88CA1D6709FD00E73526 /* zhmx_jian.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF887F1D6709FD00E73526 /* zhmx_jian.png */; };
 		0ADF88CB1D6709FD00E73526 /* zhmx_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF88801D6709FD00E73526 /* zhmx_right.png */; };
+		0ADF88CE1D670AD500E73526 /* JCDKTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88CD1D670AD500E73526 /* JCDKTabBarVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -208,6 +209,8 @@
 		0ADF887E1D6709FD00E73526 /* zhmx_jia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhmx_jia.png; sourceTree = "<group>"; };
 		0ADF887F1D6709FD00E73526 /* zhmx_jian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhmx_jian.png; sourceTree = "<group>"; };
 		0ADF88801D6709FD00E73526 /* zhmx_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhmx_right.png; sourceTree = "<group>"; };
+		0ADF88CC1D670AD500E73526 /* JCDKTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDKTabBarVC.h; sourceTree = "<group>"; };
+		0ADF88CD1D670AD500E73526 /* JCDKTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDKTabBarVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -438,6 +441,8 @@
 			children = (
 				0ADF88101D66C44900E73526 /* JCDKBaseVC.h */,
 				0ADF88111D66C44900E73526 /* JCDKBaseVC.m */,
+				0ADF88CC1D670AD500E73526 /* JCDKTabBarVC.h */,
+				0ADF88CD1D670AD500E73526 /* JCDKTabBarVC.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -700,6 +705,7 @@
 				0ADF88031D66B3E100E73526 /* UIColor+YYAdd.m in Sources */,
 				0ADF87F91D66AC8500E73526 /* main.m in Sources */,
 				0ADF88041D66B3E100E73526 /* UIView+YYAdd.m in Sources */,
+				0ADF88CE1D670AD500E73526 /* JCDKTabBarVC.m in Sources */,
 				0ADF88331D66F22500E73526 /* ZKTextField.m in Sources */,
 				0ADF880B1D66B6B500E73526 /* NSData+YSAdd.m in Sources */,
 				0ADF88181D66C58E00E73526 /* NavigationView.m in Sources */,
