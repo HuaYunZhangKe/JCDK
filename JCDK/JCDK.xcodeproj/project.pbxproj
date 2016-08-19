@@ -17,7 +17,9 @@
 		0ADF88041D66B3E100E73526 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88021D66B3E100E73526 /* UIView+YYAdd.m */; };
 		0ADF88081D66B60900E73526 /* NSString+YSAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88071D66B60900E73526 /* NSString+YSAdd.m */; };
 		0ADF880B1D66B6B500E73526 /* NSData+YSAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF880A1D66B6B500E73526 /* NSData+YSAdd.m */; };
-		0ADF880E1D66BABC00E73526 /* JCDKBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF880D1D66BABC00E73526 /* JCDKBaseVC.m */; };
+		0ADF88131D66C44900E73526 /* JCDKBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88111D66C44900E73526 /* JCDKBaseVC.m */; };
+		0ADF88151D66C4A900E73526 /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF88141D66C4A900E73526 /* NavigationView.xib */; };
+		0ADF88181D66C58E00E73526 /* NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88171D66C58E00E73526 /* NavigationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +42,11 @@
 		0ADF88071D66B60900E73526 /* NSString+YSAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YSAdd.m"; sourceTree = "<group>"; };
 		0ADF88091D66B6B500E73526 /* NSData+YSAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YSAdd.h"; sourceTree = "<group>"; };
 		0ADF880A1D66B6B500E73526 /* NSData+YSAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YSAdd.m"; sourceTree = "<group>"; };
-		0ADF880C1D66BABC00E73526 /* JCDKBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDKBaseVC.h; sourceTree = "<group>"; };
-		0ADF880D1D66BABC00E73526 /* JCDKBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDKBaseVC.m; sourceTree = "<group>"; };
+		0ADF88101D66C44900E73526 /* JCDKBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDKBaseVC.h; sourceTree = "<group>"; };
+		0ADF88111D66C44900E73526 /* JCDKBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDKBaseVC.m; sourceTree = "<group>"; };
+		0ADF88141D66C4A900E73526 /* NavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationView.xib; sourceTree = "<group>"; };
+		0ADF88161D66C58E00E73526 /* NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationView.h; sourceTree = "<group>"; };
+		0ADF88171D66C58E00E73526 /* NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +114,8 @@
 		0ADF87DD1D66AC1A00E73526 /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
-				0ADF880C1D66BABC00E73526 /* JCDKBaseVC.h */,
-				0ADF880D1D66BABC00E73526 /* JCDKBaseVC.m */,
+				0ADF880F1D66C44900E73526 /* C */,
+				0ADF88121D66C44900E73526 /* V */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -266,6 +271,25 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		0ADF880F1D66C44900E73526 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				0ADF88101D66C44900E73526 /* JCDKBaseVC.h */,
+				0ADF88111D66C44900E73526 /* JCDKBaseVC.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		0ADF88121D66C44900E73526 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				0ADF88161D66C58E00E73526 /* NavigationView.h */,
+				0ADF88171D66C58E00E73526 /* NavigationView.m */,
+				0ADF88141D66C4A900E73526 /* NavigationView.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,6 +349,7 @@
 			files = (
 				0ADF87F61D66AC8500E73526 /* Assets.xcassets in Resources */,
 				0ADF87F71D66AC8500E73526 /* LaunchScreen.storyboard in Resources */,
+				0ADF88151D66C4A900E73526 /* NavigationView.xib in Resources */,
 				0ADF87F81D66AC8500E73526 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,8 +367,9 @@
 				0ADF88041D66B3E100E73526 /* UIView+YYAdd.m in Sources */,
 				0ADF880B1D66B6B500E73526 /* NSData+YSAdd.m in Sources */,
 				0ADF87FC1D66B1E500E73526 /* AlertAndAction.m in Sources */,
+				0ADF88181D66C58E00E73526 /* NavigationView.m in Sources */,
 				0ADF88081D66B60900E73526 /* NSString+YSAdd.m in Sources */,
-				0ADF880E1D66BABC00E73526 /* JCDKBaseVC.m in Sources */,
+				0ADF88131D66C44900E73526 /* JCDKBaseVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

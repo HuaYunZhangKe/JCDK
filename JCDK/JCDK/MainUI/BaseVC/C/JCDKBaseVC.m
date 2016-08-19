@@ -51,10 +51,6 @@
     return UIStatusBarStyleDefault;
 }
 
-
-
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
