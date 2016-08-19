@@ -28,6 +28,7 @@
     if (viewControllers.count != 0)
     {
             UIViewController *firstVC = [self.navigationController.viewControllers objectAtIndex:0];
+        
             if (self == firstVC)
             {
                 self.navigationController.navigationBarHidden = YES;
