@@ -5,7 +5,7 @@
 //  Created by 张科 on 16/8/19.
 //  Copyright © 2016年 张科. All rights reserved.
 //
-
+#import "UIColor+YYAdd.h"
 #import "JCDKBaseVC.h"
 
 @interface JCDKBaseVC ()

@@ -109,6 +109,11 @@
 		0ADF88F91D6716A200E73526 /* FiveHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF88F71D6716A200E73526 /* FiveHomeVC.xib */; };
 		0ADF88FD1D6716B200E73526 /* FourthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF88FB1D6716B200E73526 /* FourthVC.m */; };
 		0ADF88FE1D6716B200E73526 /* FourthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF88FC1D6716B200E73526 /* FourthVC.xib */; };
+		0ADF89021D67360800E73526 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF89001D67360800E73526 /* LoginVC.m */; };
+		0ADF89031D67360800E73526 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF89011D67360800E73526 /* LoginVC.xib */; };
+		0ADF89061D6946D900E73526 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF89051D6946D900E73526 /* UIImage+Utils.m */; };
+		0ADF89091D69608000E73526 /* JCDKBaseNaviVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF89081D69608000E73526 /* JCDKBaseNaviVC.m */; };
+		0ADF890B1D699C7100E73526 /* xiaowanzi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF890A1D699C7100E73526 /* xiaowanzi.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -236,6 +241,14 @@
 		0ADF88FA1D6716B200E73526 /* FourthVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthVC.h; sourceTree = "<group>"; };
 		0ADF88FB1D6716B200E73526 /* FourthVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthVC.m; sourceTree = "<group>"; };
 		0ADF88FC1D6716B200E73526 /* FourthVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthVC.xib; sourceTree = "<group>"; };
+		0ADF88FF1D67360800E73526 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		0ADF89001D67360800E73526 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		0ADF89011D67360800E73526 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		0ADF89041D6946D900E73526 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		0ADF89051D6946D900E73526 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		0ADF89071D69608000E73526 /* JCDKBaseNaviVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDKBaseNaviVC.h; sourceTree = "<group>"; };
+		0ADF89081D69608000E73526 /* JCDKBaseNaviVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDKBaseNaviVC.m; sourceTree = "<group>"; };
+		0ADF890A1D699C7100E73526 /* xiaowanzi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xiaowanzi.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,6 +389,9 @@
 		0ADF87E51D66AC1A00E73526 /* LogAndReg */ = {
 			isa = PBXGroup;
 			children = (
+				0ADF88FF1D67360800E73526 /* LoginVC.h */,
+				0ADF89001D67360800E73526 /* LoginVC.m */,
+				0ADF89011D67360800E73526 /* LoginVC.xib */,
 			);
 			path = LogAndReg;
 			sourceTree = "<group>";
@@ -457,6 +473,8 @@
 		0ADF87FE1D66B3E100E73526 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				0ADF89041D6946D900E73526 /* UIImage+Utils.h */,
+				0ADF89051D6946D900E73526 /* UIImage+Utils.m */,
 				0ADF87FF1D66B3E100E73526 /* UIColor+YYAdd.h */,
 				0ADF88001D66B3E100E73526 /* UIColor+YYAdd.m */,
 				0ADF88011D66B3E100E73526 /* UIView+YYAdd.h */,
@@ -483,6 +501,8 @@
 				0ADF88111D66C44900E73526 /* JCDKBaseVC.m */,
 				0ADF88CC1D670AD500E73526 /* JCDKTabBarVC.h */,
 				0ADF88CD1D670AD500E73526 /* JCDKTabBarVC.m */,
+				0ADF89071D69608000E73526 /* JCDKBaseNaviVC.h */,
+				0ADF89081D69608000E73526 /* JCDKBaseNaviVC.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -516,6 +536,7 @@
 		0ADF88351D6709FC00E73526 /* jcdk_images */ = {
 			isa = PBXGroup;
 			children = (
+				0ADF890A1D699C7100E73526 /* xiaowanzi.jpg */,
 				0ADF88361D6709FC00E73526 /* australia.png */,
 				0ADF88371D6709FC00E73526 /* bfzx_bottom.png */,
 				0ADF88381D6709FC00E73526 /* bfzx_small.png */,
@@ -654,6 +675,7 @@
 			files = (
 				0ADF88B71D6709FD00E73526 /* sszx.png in Resources */,
 				0ADF88B81D6709FD00E73526 /* sszx1.png in Resources */,
+				0ADF890B1D699C7100E73526 /* xiaowanzi.jpg in Resources */,
 				0ADF88B91D6709FD00E73526 /* sszx2.png in Resources */,
 				0ADF88A71D6709FD00E73526 /* my2.png in Resources */,
 				0ADF88F41D67169000E73526 /* THomeVC.xib in Resources */,
@@ -692,6 +714,7 @@
 				0ADF88831D6709FD00E73526 /* bfzx_small.png in Resources */,
 				0ADF88C21D6709FD00E73526 /* ture.png in Resources */,
 				0ADF88A61D6709FD00E73526 /* my14.png in Resources */,
+				0ADF89031D67360800E73526 /* LoginVC.xib in Resources */,
 				0ADF88F91D6716A200E73526 /* FiveHomeVC.xib in Resources */,
 				0ADF88C01D6709FD00E73526 /* sszx_smallpic.png in Resources */,
 				0ADF88FE1D6716B200E73526 /* FourthVC.xib in Resources */,
@@ -760,10 +783,13 @@
 				0ADF88EE1D67168200E73526 /* SHomeVC.m in Sources */,
 				0ADF88F31D67169000E73526 /* THomeVC.m in Sources */,
 				0ADF88311D66F22500E73526 /* ToolBarView.m in Sources */,
+				0ADF89021D67360800E73526 /* LoginVC.m in Sources */,
+				0ADF89091D69608000E73526 /* JCDKBaseNaviVC.m in Sources */,
 				0ADF88341D66F22600E73526 /* ZKTextView.m in Sources */,
 				0ADF88081D66B60900E73526 /* NSString+YSAdd.m in Sources */,
 				0ADF88301D66F22500E73526 /* AlertAndAction.m in Sources */,
 				0ADF88131D66C44900E73526 /* JCDKBaseVC.m in Sources */,
+				0ADF89061D6946D900E73526 /* UIImage+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

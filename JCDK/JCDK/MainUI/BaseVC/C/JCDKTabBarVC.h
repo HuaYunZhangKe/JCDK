@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JCDKBaseNaviVC.h"
 @interface JCDKTabBarVC : UITabBarController
+@property (nonatomic, retain)JCDKBaseNaviVC *firstNaviVC;
+@property (nonatomic, retain)JCDKBaseNaviVC *secondNaviVC;
+@property (nonatomic, retain)JCDKBaseNaviVC *thirdNaviVC;
+@property (nonatomic, retain)JCDKBaseNaviVC *fourthNaviVC;
+@property (nonatomic, retain)JCDKBaseNaviVC *fivthNaviVC;
 
 @end

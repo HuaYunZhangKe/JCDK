@@ -7,17 +7,18 @@
 //
 
 #import "AppDelegate.h"
-
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    //写一段的萨里打瞌睡了；的
+#pragma mark - UIApplicationDelegate
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOption
+{
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = self.jcdkTabbarVC;
     return YES;
 }
 
@@ -42,5 +43,15 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+#pragma mark - 懒加载
+- (JCDKTabBarVC *)jcdkTabbarVC
+{
+    if (!_jcdkTabbarVC)
+    {
+        _jcdkTabbarVC = [[JCDKTabBarVC alloc] init];
+    }
+    return _jcdkTabbarVC;
+}
+
 
 @end
